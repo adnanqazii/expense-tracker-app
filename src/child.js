@@ -10,8 +10,7 @@ function Child() {
     let [cancel,setCancel]=useState(-1);
     const handleAddition = (event) => {
         event.preventDefault();
-        addTransaction({
-            
+        addTransaction({ 
             amount: Number(newAmount),
             desc: newDesc
         });
